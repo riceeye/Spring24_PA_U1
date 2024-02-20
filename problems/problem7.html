@@ -105,8 +105,7 @@
     // ]
     function multiply_3x3_matrix_and_3x1_vector(matrix, vector) {
         // todo: implement this function!
-        let a = matrix.map(row => row[0] * vector[0] + row[1] * vector[1] + row[2] * vector[2]);
-        return a;
+        return matrix.map(row => row[0] * vector[0] + row[1] * vector[1] + row[2] * vector[2]);
     }
 
     engine.animation_loop(() => {
